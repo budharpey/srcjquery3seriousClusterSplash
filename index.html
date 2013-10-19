@@ -63,23 +63,23 @@
 				maxZoom : 10
 			});
 
-			$(document).delegate("#main_page", "pageshow", function() {
-				var height = $(document).height();
-				var imageHeight = $('#Logo').height();
-				console.log(height);
-				console.log(imageHeight);
-				$('#Logo').css({
-				"position" : "relative",
-				"top" : height / 2 - imageHeight / 2
-				})
-				$(function() {
-					setTimeout(function() {
-						$.mobile.changePage("#map_page", "fade");
-					}, 3000);
-				});
-			});
+			// $(document).delegate("#main_page", "pageshow", function() {
+				// var height = $(document).height();
+				// var imageHeight = $('#Logo').height();
+				// console.log(height);
+				// console.log(imageHeight);
+				// $('#Logo').css({
+				// "position" : "relative",
+				// "top" : height / 2 - imageHeight / 2
+				// })
+				// $(function() {
+					// setTimeout(function() {
+						// $.mobile.changePage("#map_page", "fade");
+					// }, 3000);
+				// });
+			// });
 
-			$(document).delegate("#map_page", "pageshow", function() {
+			$(document).delegate("#main_page", "pageshow", function() {
 
 				var filePath = "data/" + "parkingCopy" + ".geojson";
 
@@ -139,15 +139,15 @@
 	</head>
 	<body>
 
-		<div data-role="page" id="main_page">
+		<!-- <div data-role="page" id="main_page">
 
 			<div class="container_img">
 				<img id="Logo" src="images/logo.png">
 				<!-- <a class="ui-link" href="" > </a> -->
 			</div>
-		</div>
+		</div> -->
 
-		<div data-role="page" id="map_page">
+		<div data-role="page" id="main_page">
 			<div data-role="header">
 				<!-- <a href="#main_page" data-transition="none" data-direction="reverse" data-role= "button">Start</a> -->
 				<h1>Parking Lot</h1>
@@ -161,7 +161,7 @@
 				<div data-role="navbar" data-icon="star" >
 					<ul>
 						<li>
-							<a href="#map_page"  data-icon="search" data-transition = "none">Karte</a>
+							<a href="#main_page"  data-icon="search" data-transition = "none">Karte</a>
 						</li>
 						<li>
 							<a href="#shoppingcenter_page"  data-icon="home" data-transition = "none">SCS Wien</a>
@@ -215,7 +215,7 @@
 				<div data-role="navbar" data-icon="star" >
 					<ul>
 						<li>
-							<a href="#map_page"  data-icon="search" data-transition = "none">Karte</a>
+							<a href="#main_page"  data-icon="search" data-transition = "none">Karte</a>
 						</li>
 						<li>
 							<a href="#shoppingcenter_page"  data-icon="home" data-transition = "none">SCS Wien</a>
@@ -280,7 +280,7 @@
 				<div data-role="navbar" data-icon="star" >
 					<ul>
 						<li>
-							<a href="#map_page"  data-icon="search" data-transition = "none">Karte</a>
+							<a href="#main_page"  data-icon="search" data-transition = "none">Karte</a>
 						</li>
 						<li>
 							<a href="#shoppingcenter_page"  data-icon="home" data-transition = "none">SCS Wien</a>

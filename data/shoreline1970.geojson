@@ -1,0 +1,7 @@
+{"type":"FeatureCollection","features":[
+
+{"type":"Feature","id":"PSE","properties":{"name":"West Bank"},"geometry":{"type":"Polygon","coordinates":[[[16.31633, 48.11265],
+					[16.3183, 48.11216],
+					[16.31633, 48.10906],
+					[16.3156, 48.10924]]]}}
+]}

@@ -1,0 +1,10 @@
+{"type":"FeatureCollection","features":[
+
+{"type":"Feature","id":"VNM","properties":{"name":"Vietnam"},"geometry":{"type":"Polygon","coordinates":[[[16.31968, 48.11144],
+					[16.32032, 48.11176],
+					[16.31963, 48.10958],
+					[16.31942, 48.10686],
+					[16.31839, 48.10686],
+					[16.31907, 48.10823],
+					[16.31839, 48.10918]]]}}
+]}

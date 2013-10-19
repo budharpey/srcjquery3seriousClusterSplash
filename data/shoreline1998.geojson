@@ -1,0 +1,7 @@
+{"type":"FeatureCollection","features":[
+
+{"type":"Feature","id":"YEM","properties":{"name":"Yemen"},"geometry":{"type":"Polygon","coordinates":[[[16.31852, 48.11319],
+					[16.31993, 48.11285],
+					[16.32032, 48.11207],
+					[16.31635, 48.11285]]]}}
+]}
